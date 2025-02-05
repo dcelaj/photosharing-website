@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Upload a photo!</title>
+    <title>Create an Album!</title>
     <style type="text/css">
         pre { line-height: 125%; }
     td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -1415,22 +1415,11 @@
 </head>
 
     <body>
-        <div class="title">
-            <h1>Upload a photo to Photoshare</h1>
-        </div>
-            <form method="post" enctype="multipart/form-data" action="/upload">
-                <label for="photo">Select photo:</label>
-                <input type="file" name="photo" required='true' /><br />
-                <label for="caption">Please caption:</label>
-                <input type="text" name="caption" required='true' /><br />
-                <label for="album">Album ID:</label>
-                <input type="text" name="album" required="true" /><br />
-                <label for="tags">Tag: </label>
-                <input type="text" name="tags" /><br />
-                <p>Only one tag per picture for now, CSVs and album name drop-down coming soon.</p>
-                <input type="submit" value="Upload" />
-            </form>
-            <br>
-            <p><a href="/create" class="butt">Want to create a new album? —$\boxed{\text{Click Here!}}$—</a></p>
+        <div class="title">Create a new album</div>
+        <form method="post" enctype="multipart/form-data" action="/create">
+        <label for="albname">Album Name:</label>
+        <input type="text" name="albname" required='true' />
+        <input type="submit" value="Upload" />
+    </form>
     </body>
 </html>
