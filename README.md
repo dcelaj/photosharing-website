@@ -7,6 +7,7 @@ This was meant to be a group project but both my partners left the group (one dr
 You'll need:
 - MySQL installed 
 - Python with Flask (see requirements.txt) installed - use a dedicated python version manager to make this less messy
+  
 Steps:
 - Open MySQL and run the .sql schema file - have SQL as a service running while the app is.
 - Run app.py with python through the command line, making sure you're using the proper python environment.
