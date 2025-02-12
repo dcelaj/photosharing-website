@@ -14,3 +14,5 @@ Steps:
 - Open MySQL and run the .sql schema file - have SQL as a service running while the app is.
 - Run app.py with python through the command line, making sure you're using the proper python environment.
 - Open localhost to connect to the website.
+
+See INSTRUCTIONS.txt for the instructions as they were explained by our professor.
